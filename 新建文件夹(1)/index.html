@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qiqi | 中文作品集</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="theme-switch" data-theme-switch data-testid="theme-switch" role="group" aria-label="主题模式">
+    <button class="theme-option" type="button" data-theme-mode="auto" aria-pressed="true">
+      <ion-icon name="sparkles-outline" aria-hidden="true"></ion-icon>
+      <span>自动</span>
+    </button>
+    <button class="theme-option" type="button" data-theme-mode="day" aria-pressed="false">
+      <ion-icon name="sunny-outline" aria-hidden="true"></ion-icon>
+      <span>白天</span>
+    </button>
+    <button class="theme-option" type="button" data-theme-mode="night" aria-pressed="false">
+      <ion-icon name="moon-outline" aria-hidden="true"></ion-icon>
+      <span>夜间</span>
+    </button>
+  </div>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Qiqi" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Qiqi">Qiqi</h1>
+          <p class="title">品牌与前端体验设计师</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>展开联系</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">邮箱</p>
+              <a href="mailto:hello@qiqi.studio" class="contact-link">hello@qiqi.studio</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">电话</p>
+              <a href="tel:+85261234567" class="contact-link">+852 6123 4567</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">生日</p>
+              <time datetime="1998-08-16">1998 年 8 月 16 日</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">所在地</p>
+              <address>中国香港 / 远程协作</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link" aria-label="GitHub">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link" aria-label="Dribbble">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <div class="main-content">
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>关于</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>履历</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>作品</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>文章</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>联系</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="关于">
+
+        <header>
+          <h2 class="h2 article-title">关于我</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            我专注于品牌表达、数字体验与前端落地，习惯从叙事、视觉和交互三个层面一起思考。
+            对我来说，好作品不只是好看，而是能把气质、信息和转化路径组织得刚刚好。
+          </p>
+
+          <p>
+            我擅长把模糊的想法整理成可执行的界面系统，既能完成从概念到视觉的设计，也能把页面真正写出来。
+            无论是个人品牌页、产品官网还是展示型作品集，我都希望它有辨识度、有节奏感，也经得起真实使用。
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">我在做什么</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="品牌网站设计" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">品牌网站设计</h4>
+                <p class="service-item-text">
+                  为个人品牌、工作室和创意项目设计具有识别度的首页、落地页与完整官网体验。
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="前端体验开发" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">前端体验开发</h4>
+                <p class="service-item-text">
+                  将视觉稿落地成真实网页，兼顾响应式、动效细节、交互反馈与性能表现。
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="产品界面规划" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">产品界面规划</h4>
+                <p class="service-item-text">
+                  为内容产品和轻应用梳理信息层级、核心流程与界面组件，让体验更清晰自然。
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="视觉内容统筹" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">视觉内容统筹</h4>
+                <p class="service-item-text">
+                  协调图片风格、封面视觉与页面叙事，让整体表达不止停留在模板层面。
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">合作评价</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="林栀" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>林栀</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    她最打动我的不是“审美很好”这件事，而是能把混乱的信息重新编排成非常有秩序的页面。
+                    从首页节奏到按钮文案，几乎每个细节都能看到思考。
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="周既白" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>周既白</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    我们原本只有一些零散的想法和案例截图，Qiqi 帮我们建立了统一视觉方向，也把前端实现一起做出来，
+                    项目推进非常顺。
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="唐予安" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>唐予安</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    她做的页面有一种很干净的张力，不会堆太多元素，但又绝不无聊。上线后用户对品牌感知明显提升，
+                    咨询转化率也跟着变好了。
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="沈聿" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>沈聿</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    项目过程中沟通很轻松，反馈也特别具体。很多我们自己说不清的需求，她都能快速翻译成界面语言，
+                    这点很难得。
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="林栀" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="引号图标">
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>林栀</h4>
+              <time datetime="2026-03-14">2026 年 3 月 14 日</time>
+
+              <div data-modal-text>
+                <p>
+                  她最打动我的不是“审美很好”这件事，而是能把混乱的信息重新编排成非常有秩序的页面。
+                  从首页节奏到按钮文案，几乎每个细节都能看到思考。
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="clients">
+          <h3 class="h3 clients-title">合作品牌</h3>
+
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item"><a href="#"><img src="./assets/images/logo-1-color.png" alt="合作品牌 1"></a></li>
+            <li class="clients-item"><a href="#"><img src="./assets/images/logo-2-color.png" alt="合作品牌 2"></a></li>
+            <li class="clients-item"><a href="#"><img src="./assets/images/logo-3-color.png" alt="合作品牌 3"></a></li>
+            <li class="clients-item"><a href="#"><img src="./assets/images/logo-4-color.png" alt="合作品牌 4"></a></li>
+            <li class="clients-item"><a href="#"><img src="./assets/images/logo-5-color.png" alt="合作品牌 5"></a></li>
+            <li class="clients-item"><a href="#"><img src="./assets/images/logo-6-color.png" alt="合作品牌 6"></a></li>
+          </ul>
+        </section>
+
+      </article>
+
+      <article class="resume" data-page="履历">
+
+        <header>
+          <h2 class="h2 article-title">履历</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">教育经历</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">中央美术学院 视觉传达方向</h4>
+              <span>2018 - 2020</span>
+              <p class="timeline-text">
+                聚焦品牌叙事、版式系统与数字媒介表达，逐步建立从概念到可视化呈现的完整方法。
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">中国传媒大学 数字媒体课程</h4>
+              <span>2016 - 2018</span>
+              <p class="timeline-text">
+                系统学习交互设计、界面原型与内容结构规划，把视觉能力延伸到产品体验层面。
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">自我训练与前端实践</h4>
+              <span>2014 - 2016</span>
+              <p class="timeline-text">
+                从 HTML、CSS、JavaScript 开始建立网页实现能力，让设计方案能更接近真实上线状态。
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">工作经历</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">独立设计师 / 前端顾问</h4>
+              <span>2023 - 至今</span>
+              <p class="timeline-text">
+                服务内容型品牌、创意团队与初创产品，负责视觉策略、网站设计、页面开发与上线优化。
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">高级视觉设计师</h4>
+              <span>2020 - 2023</span>
+              <p class="timeline-text">
+                参与多个官网改版与品牌升级项目，主导首页叙事、组件风格和跨端适配规范。
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">网页设计师</h4>
+              <span>2018 - 2020</span>
+              <p class="timeline-text">
+                负责专题页、活动页和展示页设计，积累了对视觉节奏、转化路径和前端可实现性的判断。
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">能力栈</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">品牌网站设计</h5>
+                <data value="92">92%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 92%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">界面与信息层级</h5>
+                <data value="88">88%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">前端落地开发</h5>
+                <data value="84">84%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 84%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">内容系统搭建</h5>
+                <data value="76">76%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 76%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+      <article class="portfolio" data-page="作品">
+
+        <header>
+          <h2 class="h2 article-title">作品</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>全部</button></li>
+            <li class="filter-item"><button data-filter-btn>品牌网站</button></li>
+            <li class="filter-item"><button data-filter-btn>产品应用</button></li>
+            <li class="filter-item"><button data-filter-btn>前端开发</button></li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>选择分类</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>全部</button></li>
+              <li class="select-item"><button data-select-item>品牌网站</button></li>
+              <li class="select-item"><button data-select-item>产品应用</button></li>
+              <li class="select-item"><button data-select-item>前端开发</button></li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="前端开发">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="金融品牌官网" loading="lazy">
+                </figure>
+                <h3 class="project-title">Finance Horizon</h3>
+                <p class="project-category">前端开发</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="前端开发">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="沉浸式产品展示页" loading="lazy">
+                </figure>
+                <h3 class="project-title">Orizon Studio</h3>
+                <p class="project-category">前端开发</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="品牌网站">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="创意机构品牌站" loading="lazy">
+                </figure>
+                <h3 class="project-title">Fundo Atelier</h3>
+                <p class="project-category">品牌网站</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="产品应用">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="社区应用设计" loading="lazy">
+                </figure>
+                <h3 class="project-title">Pulse Community</h3>
+                <p class="project-category">产品应用</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="品牌网站">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="品牌识别与官网系统" loading="lazy">
+                </figure>
+                <h3 class="project-title">DSM. Identity</h3>
+                <p class="project-category">品牌网站</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="品牌网站">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="科技产品视觉页" loading="lazy">
+                </figure>
+                <h3 class="project-title">MetaSpark</h3>
+                <p class="project-category">品牌网站</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="前端开发">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-7.png" alt="数据摘要后台" loading="lazy">
+                </figure>
+                <h3 class="project-title">Insight Summary</h3>
+                <p class="project-category">前端开发</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="产品应用">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.jpg" alt="任务管理应用" loading="lazy">
+                </figure>
+                <h3 class="project-title">Task Flow</h3>
+                <p class="project-category">产品应用</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="前端开发">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-9.png" alt="沉浸式发布页" loading="lazy">
+                </figure>
+                <h3 class="project-title">Arrival Launch</h3>
+                <p class="project-category">前端开发</p>
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <article class="blog" data-page="文章">
+
+        <header>
+          <h2 class="h2 article-title">文章</h2>
+        </header>
+
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="作品集首页怎么讲故事" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">设计方法</p>
+                    <span class="dot"></span>
+                    <time datetime="2026-01-12">2026 年 1 月 12 日</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">作品集首页，为什么要先讲气质再讲能力</h3>
+                  <p class="blog-text">
+                    不是信息越多越好，而是先让访客快速感受到你的工作方式和审美判断。
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="中文网站字体选择" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">视觉语言</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-12-20">2025 年 12 月 20 日</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">中文网站的字体，不该只靠系统默认</h3>
+                  <p class="blog-text">
+                    字体影响的不只是可读性，还决定了页面的温度、节奏和专业感。
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="如何整理设计系统" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">设计系统</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-11-08">2025 年 11 月 8 日</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">从混乱到统一，我如何整理一个品牌站的组件系统</h3>
+                  <p class="blog-text">
+                    当颜色、圆角、阴影和留白开始有规律，页面会自然变得高级且稳定。
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="高级交互动效" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">交互细节</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-10-03">2025 年 10 月 3 日</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">真正显质感的，不是炫技动效，而是克制的反馈</h3>
+                  <p class="blog-text">
+                    好的交互像呼吸一样存在，它不抢戏，却一直在提升体验的完成度。
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="留白与层次" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">版式节奏</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-08-18">2025 年 8 月 18 日</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">留白不是浪费，而是帮内容获得呼吸感</h3>
+                  <p class="blog-text">
+                    页面之所以显得贵，很多时候不是因为元素多，而是因为节奏控制得足够好。
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="设计师学前端" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">设计与开发</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-07-02">2025 年 7 月 2 日</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">设计师为什么值得学一点前端实现</h3>
+                  <p class="blog-text">
+                    当你理解真实浏览器如何工作，很多设计判断会更准确，也更有说服力。
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+      <article class="contact" data-page="联系">
+
+        <header>
+          <h2 class="h2 article-title">联系</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14763.612331328287!2d114.1554093!3d22.28198135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404005c0f5f3d45%3A0x55f2d32d2b204361!2sCentral%2C%20Hong%20Kong!5e0!3m2!1sen!2shk!4v1713888000000!5m2!1sen!2shk"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">项目咨询</h3>
+
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="你的称呼" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="邮箱地址" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="简单说说你的项目、时间和预期风格" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>发送消息</span>
+            </button>
+          </form>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
